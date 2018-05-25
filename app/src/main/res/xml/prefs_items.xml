@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="Green Cube 2.4GHz"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/GreenCubeSSID"
+        android:key="SSID"
+        android:summary="@string/GreenCubeSSIDSummary" />
+
+    <EditTextPreference
+        android:defaultValue="192.168.1.2"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/ServeurSSID"
+        android:key="adresse"
+        android:summary="@string/ServeurSSIDSummary" />
+
+    <EditTextPreference
+        android:defaultValue="administrateur"
+        android:key="username"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Entrer le nom d'utilisateur du serveur FTP"
+        android:title="Login FTP" />
+
+    <EditTextPreference
+        android:defaultValue="Ubuntu2018"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/ServeurPassword"
+        android:inputType="textPassword"
+        android:key="password"
+        android:summary="@string/ServerPasswordSummary" />
+
+    <EditTextPreference
+        android:defaultValue="example@gmail.com"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/CourrielSourceUsername"
+        android:key="sourceUsername"
+        android:summary="@string/CourrielSourceUsernameSummary" />
+    <EditTextPreference
+        android:defaultValue="android123"
+        android:selectAllOnFocus="true"
+        android:password="true"
+        android:singleLine="true"
+        android:title="@string/CourrielSourcePassword"
+        android:key="sourcePassword"
+        android:summary="@string/CourrielSourcePasswordSummary" />
+    <EditTextPreference
+        android:defaultValue="testitmi2@gmail.com"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/CourrielDestinationUsername"
+        android:key="destinationUsername"
+        android:summary="@string/CourrielDestinationUsernameSummary" />
+    <EditTextPreference
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/NomFichier"
+        android:key="filename"
+        android:summary="@string/NomFichierSummary" />
+    <EditTextPreference
+        android:defaultValue="/administrateur/home/"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/CheminFichier"
+        android:key="filepath"
+        android:summary="@string/CheminFichierSummary" />
+    <ListPreference
+        android:entries="@array/NomSettingWifi"
+        android:entryValues="@array/ValeurSettingWifi"
+        android:defaultValue="30"
+        android:title="@string/ParamWifi"
+        android:key="delay"
+        android:summary="@string/ParamWifiSummary" />
+    <EditTextPreference
+        android:defaultValue="admin"
+        android:key="adminPassword"
+        android:password="true"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/adminPassMessage"
+        android:title="@string/adminPassTitre" />
+
+</PreferenceScreen>

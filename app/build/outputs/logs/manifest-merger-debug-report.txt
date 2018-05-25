@@ -1,0 +1,176 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9ab4a4170a0632b964601f87420b7df6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9d3f875bac5ee37e9bb3d1efa91eeb12/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/93fc6f29290382391fa2d98dfa2cffbc/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/309011302992c869efd08e5967b90a9f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/040db39c02d1e862af5a287f99ce3439/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/87fc3bfc36025577f7c11193ab5d2f5b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3b41c6347127b578d74e2d721bc804a3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/bad46e93444acf16b400e0a370f1dd53/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/2d3f2c612cec5fe5e69d1e1b87599656/AndroidManifest.xml:17:1-31:12
+INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+		INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_INTERNAL_STORAGE
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:13:5-78
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:14:22-76
+application
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:16:5-33:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9ab4a4170a0632b964601f87420b7df6/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9ab4a4170a0632b964601f87420b7df6/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9d3f875bac5ee37e9bb3d1efa91eeb12/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9d3f875bac5ee37e9bb3d1efa91eeb12/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/93fc6f29290382391fa2d98dfa2cffbc/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/93fc6f29290382391fa2d98dfa2cffbc/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/309011302992c869efd08e5967b90a9f/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/309011302992c869efd08e5967b90a9f/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/040db39c02d1e862af5a287f99ce3439/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/040db39c02d1e862af5a287f99ce3439/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/87fc3bfc36025577f7c11193ab5d2f5b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/87fc3bfc36025577f7c11193ab5d2f5b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3b41c6347127b578d74e2d721bc804a3/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3b41c6347127b578d74e2d721bc804a3/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/bad46e93444acf16b400e0a370f1dd53/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/bad46e93444acf16b400e0a370f1dd53/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/2d3f2c612cec5fe5e69d1e1b87599656/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/2d3f2c612cec5fe5e69d1e1b87599656/AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:19:9-41
+	android:icon
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:18:9-41
+	android:allowBackup
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:21:9-40
+activity#com.Info420.ITMI.greencube.MainActivity
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:22:9-27:20
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:22:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.Info420.ITMI.greencube.PrefsActivity
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:29:9-60
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:29:19-48
+activity#com.Info420.ITMI.greencube.Telechargement
+ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:30:9-61
+	android:name
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml:30:19-49
+uses-sdk
+INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9ab4a4170a0632b964601f87420b7df6/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9ab4a4170a0632b964601f87420b7df6/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9d3f875bac5ee37e9bb3d1efa91eeb12/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9d3f875bac5ee37e9bb3d1efa91eeb12/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/93fc6f29290382391fa2d98dfa2cffbc/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/93fc6f29290382391fa2d98dfa2cffbc/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/309011302992c869efd08e5967b90a9f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/309011302992c869efd08e5967b90a9f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/040db39c02d1e862af5a287f99ce3439/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/040db39c02d1e862af5a287f99ce3439/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/87fc3bfc36025577f7c11193ab5d2f5b/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/87fc3bfc36025577f7c11193ab5d2f5b/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3b41c6347127b578d74e2d721bc804a3/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3b41c6347127b578d74e2d721bc804a3/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/bad46e93444acf16b400e0a370f1dd53/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/bad46e93444acf16b400e0a370f1dd53/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/2d3f2c612cec5fe5e69d1e1b87599656/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/2d3f2c612cec5fe5e69d1e1b87599656/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9ab4a4170a0632b964601f87420b7df6/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+		INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+		ADDED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+		INJECTED from /home/max/Bureau/GreenCube/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9ab4a4170a0632b964601f87420b7df6/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9d3f875bac5ee37e9bb3d1efa91eeb12/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9d3f875bac5ee37e9bb3d1efa91eeb12/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/93fc6f29290382391fa2d98dfa2cffbc/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/93fc6f29290382391fa2d98dfa2cffbc/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/309011302992c869efd08e5967b90a9f/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/309011302992c869efd08e5967b90a9f/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/040db39c02d1e862af5a287f99ce3439/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/040db39c02d1e862af5a287f99ce3439/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/87fc3bfc36025577f7c11193ab5d2f5b/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/87fc3bfc36025577f7c11193ab5d2f5b/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3b41c6347127b578d74e2d721bc804a3/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3b41c6347127b578d74e2d721bc804a3/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/bad46e93444acf16b400e0a370f1dd53/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/bad46e93444acf16b400e0a370f1dd53/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/2d3f2c612cec5fe5e69d1e1b87599656/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/2d3f2c612cec5fe5e69d1e1b87599656/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9ab4a4170a0632b964601f87420b7df6/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/max/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9ab4a4170a0632b964601f87420b7df6/AndroidManifest.xml:26:9-47

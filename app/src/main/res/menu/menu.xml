@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemPreference"
+        android:icon="@mipmap/ic_menu_preferences"
+        android:title="@string/titleItemPref"
+        app:showAsAction="never|withText" />
+    <item android:title="@string/titleTelechargement"
+        android:id="@+id/itemTelechargement"
+        app:showAsAction="never|withText" />
+</menu>

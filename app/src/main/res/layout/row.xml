@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_delete"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="28dp"
+        android:layout_height="27dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/poubelle2" />
+
+    <Button
+        android:id="@+id/bt_envoyer"
+        android:layout_width="37dp"
+        android:layout_height="22dp"
+        android:layout_alignBottom="@+id/bt_delete"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="76dp"
+        android:background="@drawable/email" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nom_telechargement"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/envoieView"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp" />
+
+</RelativeLayout>

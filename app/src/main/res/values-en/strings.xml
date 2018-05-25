@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">GreenCube</string>
+    <string name="butt_telecharger">Download data</string>
+    <string name="titleItemPref">Preferences</string>
+    <string name="titileWifi">WI-FI</string>
+    <string name="titleTelechargement">Downloads</string>
+
+
+
+    <string name="PrefsTitle">Preferences</string>
+
+    <string name="GreenCubeSSIDSummary">Enter SSID for GreenCube\'s network</string>
+    <string name="GreenCubeSSID">GreenCube Network</string>
+
+    <string name="ServeurSSIDSummary">Enter the IP address for the FTP server</string>
+    <string name="ServerPasswordSummary">Enter FTP server\'s password</string>
+    <string name="ServeurSSID">FTP server\'s address</string>
+    <string name="ServeurPassword">FTP password</string>
+
+    <string name="Téléchargement">Downloads</string>
+    <string name="ConnectionWiFi">Wi-Fi</string>
+    <string name="Preference">Preference</string>
+
+    <string name="ParamWifi">Transfer parameters</string>
+    <string name="ParamWifiSummary">Configure the automatic transfert</string>
+
+    <string name="ParamLTE">LTE parameters</string>
+    <string name="ParamLTESummary">Enable / Disable LTE  transfer</string>
+
+    <string-array name="NomSettingWifi">
+        <item>Transfer data automaticly at all time. Data charges may apply</item>
+        <item>Transfer data automaticly when logged to WiFI only</item>
+        <item>Do not transfer data automaticly</item>
+    </string-array>
+
+    <string-array name="ValeurSettingWifi">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+    </string-array>
+
+    <string-array name="AutoriserLTE">
+        <item>Allow transfer by LTE</item>
+        <item>Do not allow transfer by LTE</item>
+    </string-array>
+
+    <string-array name="ValeurAutoriserLTE">
+        <item>Allow transfer by LTE</item>
+        <item>Do not allow transfer by LTE</item>
+    </string-array>
+    <string name="CourrielSourceUsername">Source</string>
+    <string name="CourrielSourceUsernameSummary">Enter the sender\'s email</string>
+    <string name="CourrielSourcePassword">Source\'s password</string>
+    <string name="CourrielSourcePasswordSummary">Enter sender\'s mail password</string>
+    <string name="CourrielDestinationUsername">Destination mail</string>
+    <string name="CourrielDestinationUsernameSummary">Enter who will receive the mail</string>
+    <string name="NomFichier">Filename</string>
+    <string name="NomFichierSummary">Enter the filename to get on the FTP server</string>
+    <string name="CheminFichier">File path</string>
+    <string name="CheminFichierSummary">Enter the file\'s path on the FTP server</string>
+    <string name="ConxGreenCube">Connecting to GreenCube\'s network</string>
+    <string name="downloadFTP">Dowloading data...</string>
+    <string name="ConxFTP">Connecting to FTP server...</string>
+    <string name="ConxWifi">Wi-Fi state...</string>
+    <string name="nomReseau">SSID...</string>
+    <string name="AcceuilTrue">OK !</string>
+    <string name="AcceuilFalse">Fail !</string>
+    <string name="MauvaisMDP">Error ! Wrong password.</string>
+    <string name="BonMDP">Administrator mode enabled !</string>
+    <string name="mailFail">Error while sending email</string>
+    <string name="messageEnvoye">Send</string>
+    <string name="messageNonEnvoye">Not send</string>
+    <string name="ObjetMessage">GreenCube\'s data transfert</string>
+    <string name="MessageConfirmationEnvoie1">Mail sent to</string>
+    <string name="MessageConfirmationEnvoie2">successfully !</string>
+    <string name="MessageErreur">Error while sending email.</string>
+    <string name="PopUpTitre">Deleting</string>
+    <string name="PopUpConfirm">Are you sure you really want to delete this file ?</string>
+    <string name="PopUpTrue">Yes</string>
+    <string name="PopUpFalse">No</string>
+    <string name="PopUpValide">File deleted.</string>
+    <string name="NoConnection">No connection detected.</string>
+    <string name="wifiState">active</string>
+    <string name="wifiInvalide">Invalid</string>
+    <string name="MessageTelecharger1">File</string>
+    <string name="MessageTelecharger2">downloaded successfully !</string>
+    <string name="ErrorDownload">Error while downloading the data.</string>
+    <string name="MessageMDP">Enter the admin password</string>
+    <string name="adminPassTitre">Password</string>
+    <string name="adminPassMessage">Change admintrator\'s password</string>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondvert"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.Info420.ITMI.greencube.MainActivity">
+
+    <TextView
+        android:id="@+id/serState"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/conxFTP"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:gravity="right"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/conxFTP"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="184dp"
+        android:text="@string/ConxFTP"
+        android:textColor="@android:color/background_light"
+        android:visibility="visible" />
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/butt_telecharger" />
+
+    <TextView
+        android:id="@+id/downloadFTP"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/conxFTP"
+        android:layout_alignLeft="@+id/conxFTP"
+        android:layout_marginTop="238dp"
+        android:text="@string/downloadFTP"
+        android:textColor="@android:color/background_light"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/downState"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/serState"
+        android:layout_alignLeft="@+id/serState"
+        android:layout_alignTop="@+id/downloadFTP"
+        android:gravity="right"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/conxFTP"
+        android:layout_alignLeft="@+id/conxFTP"
+        android:layout_marginTop="77dp"
+        android:gravity="left"
+        android:text="@string/ConxWifi"
+        android:textColor="@android:color/background_light"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/wifiState"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/serState"
+        android:layout_alignLeft="@+id/serState"
+        android:layout_alignTop="@+id/textView3"
+        android:gravity="right"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/nomReseau"
+        android:layout_width="57dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/conxFTP"
+        android:layout_alignLeft="@+id/conxFTP"
+        android:layout_marginTop="132dp"
+        android:text="@string/nomReseau"
+        android:textColor="@android:color/background_light"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/nomSSID"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/downState"
+        android:layout_alignLeft="@+id/downState"
+        android:layout_alignTop="@+id/nomReseau"
+        android:layout_marginStart="-130dp"
+        android:layout_marginLeft="-130dp"
+        android:gravity="right"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name" translatable="false">GreenCube</string>
+    <string name="butt_telecharger">Télécharger les données</string>
+    <string name="titleItemPref">Préférences</string>
+    <string name="titileWifi" translatable="false">Wi-Fi</string>
+    <string name="titleTelechargement">Fichiers</string>
+
+
+    <string name="PrefsTitle">Préférences</string>
+
+    <string name="GreenCubeSSIDSummary">Entrez le SSID du GreenCube</string>
+    <string name="GreenCubeSSID">Identifiant réseau GreenCube</string>
+
+    <string name="ServeurSSIDSummary">Entrez l\'adresse IP du serveur FTP</string>
+    <string name="ServerPasswordSummary">Entrez le mot de passe du serveur FTP</string>
+    <string name="ServeurSSID">Serveur FTP</string>
+    <string name="ServeurPassword">Mot de passe serveur FTP</string>
+
+    <string name="Téléchargement">Téléchargement</string>
+    <string name="ConnectionWiFi" translatable="false">Wi-Fi</string>
+    <string name="Preference">Préférences</string>
+
+    <string name="ParamWifi">Paramètres transfert</string>
+    <string name="ParamWifiSummary">Choissisez les paramètres de transfert automatique</string>
+
+    <string name="ParamLTE">Paramètres LTE</string>
+    <string name="ParamLTESummary">Activez ou désactivez le transfert via données mobiles</string>
+
+    <string name="CourrielSourceUsername">Courriel source</string>
+    <string name="CourrielSourceUsernameSummary">Entrez le courriel de l\'expéditeur</string>
+
+    <string name="CourrielSourcePassword">Mot de passe courriel source</string>
+    <string name="CourrielSourcePasswordSummary">Entrez le mot de passe du courriel source</string>
+
+    <string name="CourrielDestinationUsername">Courriel destination</string>
+    <string name="CourrielDestinationUsernameSummary">Entrez le courriel destination</string>
+
+    <string name="NomFichier">Nom fichier</string>
+    <string name="NomFichierSummary">Entrez le nom du fichier sur le serveur FTP à récupéré</string>
+
+    <string name="CheminFichier">Emplacement du fichier</string>
+    <string name="CheminFichierSummary">Entrez l\'emplacement du fichier sur le serveur FTP</string>
+
+    <string-array name="ValeurSettingWifi">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+    </string-array>
+
+    <string-array name="NomSettingWifi">
+        <item>Transfére les données automatiquement</item>
+        <item>Transfére les données automatiquement (Wi-Fi)</item>
+        <item>Ne pas transferer les données automatiquement</item>
+    </string-array>
+
+    <string name="ConxGreenCube">Connexion au réseau du GreenCube...</string>
+    <string name="downloadFTP">Téléchargement du fichier... </string>
+    <string name="ConxFTP">Connexion au serveur FTP...</string>
+    <string name="ConxWifi">État du Wi-Fi...</string>
+    <string name="nomReseau" translatable="false">SSID...</string>
+
+    <string name="AcceuilTrue" translatable="false">OK !</string>
+    <string name="AcceuilFalse" translatable="false">Fail !</string>
+
+    <string name="MauvaisMDP">Erreur ! Mauvais mot de passe.</string>
+    <string name="BonMDP">Mode administrateur activé !</string>
+
+    <string name="mailFail">Erreur lors de l\'envoie</string>
+    <string name="messageEnvoye">Envoyé</string>
+    <string name="messageNonEnvoye">Non envoyé</string>
+    <string name="ObjetMessage">Transfert des données du GreenCube</string>
+    <string name="MessageConfirmationEnvoie1">Courriel envoyé à</string>
+    <string name="MessageConfirmationEnvoie2">avec succès !</string>
+    <string name="MessageErreur">Erreur lors de l\'envoi.</string>
+    <string name="PopUpTitre">Suppression</string>
+    <string name="PopUpConfirm">Êtes-vous sûr de bien vouloir supprimer ce fichier ?</string>
+    <string name="PopUpTrue">Oui</string>
+    <string name="PopUpFalse">Non</string>
+    <string name="PopUpValide">Fichier supprimé.</string>
+    <string name="NoConnection">Aucune connexion détectée.</string>
+    <string name="wifiState">actif</string>
+    <string name="wifiInvalide">Invalide</string>
+    <string name="MessageTelecharger1">Fichier</string>
+    <string name="MessageTelecharger2">téléchargé avec succès !</string>
+    <string name="ErrorDownload">Erreur lors du téléchargement du fichier.</string>
+    <string name="MessageMDP">Saissisez le mot de passe</string>
+    <string name="adminPassTitre">Mot de passe</string>
+    <string name="adminPassMessage">Changer le mot de passe administrateur</string>
+</resources>

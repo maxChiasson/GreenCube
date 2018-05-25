@@ -1,0 +1,19 @@
+Détecté les changement de Network de l'appareil
+    Source :            https://www.panda-os.com/blog/2014/12/android-device-internet-connection-status/
+    Consulté le :       9 mai 2018
+
+Update les textview durant le run
+    Source :            https://stackoverflow.com/questions/5161951/android-only-the-original-thread-that-created-a-view-hierarchy-can-touch-its-vi
+    Consulté le :       7 mai 2018
+
+Activé/Désactivé un bouton
+    Source :            https://stackoverflow.com/questions/4384890/how-to-disable-an-android-button
+    Consulté le :       9 mai 2018
+
+Intégrer des ressources du String.XML dans un Toast
+    Source :            https://stackoverflow.com/questions/7331793/android-java-using-a-string-resource-in-a-toast
+    Consulté le :       14 mai 2018
+
+Activé le clavier lorsque le focus est sur objet
+    Source :            https://stackoverflow.com/questions/5105354/how-to-show-soft-keyboard-when-edittext-is-focused
+    Consulté le :       13 mai 201
