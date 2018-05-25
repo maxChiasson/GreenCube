@@ -17,3 +17,12 @@ Le fichier source contient certaines sources utilisées pour la réalisation de 
 
 Les fichiers sont respectivement les guides d'administrateur et d'utilisateur de l'application. 
 Il est important de bien les consultés afin de bien comprendre comment fonctionne l'application.
+
+Chaque fonction contient des commentaires qui explique le fonctionnement du code.
+Vous trouverez également dans l'en-tête du fichier "MainActivity.java", diverses informations sur les développeurs,
+le lien Git et une courte description de l'application.
+
+
+Une fois l'application installée, il faut pour la première fois entrer dans le mode administrateur,
+en entrant AUCUN mot de passe pour la première utilisation. Une fois à l'intérieur, les préférences par défaut seront chargées.
+La prochaine connexion devra donc se faire avec le mot de passe par défaut, sauf si vous l'avez changer lors de la première conexion.
