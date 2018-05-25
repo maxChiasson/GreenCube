@@ -1,5 +1,8 @@
 # GreenCube
 
+https://github.com/maxChiasson/GreenCube
+
+
 Projet de développement d'une application Android pour assurer une gestion d'un parc de "GreenCube". 
 Projet en collaboration entre les étudiants de la Technique d'Informatique du Cégep de Sept-Îles 
 et l'Institut de Technologie de Maintenance Industrielle (ITMI). 

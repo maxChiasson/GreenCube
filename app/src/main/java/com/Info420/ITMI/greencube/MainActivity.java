@@ -25,7 +25,7 @@
                                 Pour comprendre le fonctionnement et avoir une meilleure compréhension de l'appareil GreenCube,
                                 pensez à consulter le guide d'utilisateur officiel sur Git.
 
-    Liens GitHub :              //TODO - push le code sur le nouveau git et mettre l'url
+    Liens GitHub :              https://github.com/maxChiasson/GreenCube
 
     Note * :                    Notez que le code sur GitHub est affiché de façon publique, donc tout le monde
                                 peut avoir accès au code. Cela est dû au compte gratuit de Git. Il faut débourser un montant

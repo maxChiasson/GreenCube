@@ -1,4 +1,4 @@
-#Thu May 24 16:16:50 EDT 2018
-base.0=/home/max/Bureau/GreenCube-master/app/build/intermediates/transforms/dexMerger/debug/0
+#Fri May 25 13:31:57 EDT 2018
+base.0=/home/max/Bureau/GreenCube/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
